@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-# Set page config
+
 st.set_page_config(page_title="My Portfolio", page_icon="💻", layout="wide")
 
-# Sidebar Navigation
+
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Projects", "Skills", "Contact"])
 
@@ -64,7 +64,7 @@ elif page == "Contact":
         if submit_button:
             st.success("Thank you for reaching out! I'll get back to you soon.")
 
-# Footer
+
 st.markdown("---")
 st.write("@copyrights:Aswinkathaperumal")
 st.write("LINKED IN: Aswinkathaperumal")
