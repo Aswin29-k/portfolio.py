@@ -48,7 +48,7 @@ elif page == "Skills":
     st.write(", ".join(skills))
     st.header("🎓 Education")
     st.write("CARE College of Engineering – B.E. in Electronics and Communication Engineering (ECE)"
-"📅 Year of Graduation: [Your Year] | CGPA: 7.81"
+"📅 Year of Graduation: [2023-2027] | CGPA: 7.81"
 
 "Saraswathi Vidyalaya – High School"
 "📅 Year of Completion: [2023] | Percentage: 76%")
